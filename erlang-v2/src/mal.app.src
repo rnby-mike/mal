@@ -1,0 +1,12 @@
+{application, mal,
+ [
+  {description, "Make-a-Lisp implementation in Erlang"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mal_app, []}},
+  {env, []}
+ ]}.
